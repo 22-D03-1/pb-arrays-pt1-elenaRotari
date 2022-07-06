@@ -92,7 +92,10 @@ console.log({ myFamily });
 myFamily.reverse();
 console.log({ myFamily });
 
-console.log({ myFamily }[1]);
-
+console.log(myFamily[1]);
+//erste option
+myFamily.splice(2, 1, "Taticu");
+console.log({ myFamily });
+//zweite option
 myFamily[2] = "Valeriu Rotari";
 console.log({ myFamily });
