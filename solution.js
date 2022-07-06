@@ -69,6 +69,11 @@ console.log({ worldCities });
 
 console.log(worldCities.join(", "));
 
+// vergesenne Aufgabe
+//1. Schreibe ein Programm, um die Zeichenkette umzukehren: "Hallo Welt".
+const world = "Hallo Welt";
+console.log(world.split("").reverse().join(""));
+
 /***Zusätzliche Übung**
 Gib die Ergebnisse in der Konsole aus.
 
